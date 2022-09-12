@@ -3,6 +3,10 @@
 
 int main()
 {
+    /*
+    making a comment
+    */
+
     int num = 6;
     printf("%f", 8 + 2.1);
     printf("\n percent f is a float, percent d is an integer");
