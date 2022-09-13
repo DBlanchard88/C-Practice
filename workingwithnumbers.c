@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
+
+
 
 int main()
 {
@@ -8,6 +11,7 @@ int main()
     */
 
     int num = 6;
+
     printf("%f", 8 + 2.1);
     printf("\n percent f is a float, percent d is an integer");
     printf("\n%d", num);
@@ -18,3 +22,4 @@ int main()
 
     return 0;
 }
+/* getting 4 errors figure it out */ 
