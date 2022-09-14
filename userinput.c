@@ -11,7 +11,7 @@ when ever creating string of characters you need [] and you specify how many cha
  %s is how c requests a string callout
  %c is how c requests character callout
  %lf is how c requests a double callout
- $d is how c requests an intager callout
+ $d is how c requests an integer callout
 
  scanf only grabs characters up to the first space when grabbing a string, use fgets to grab a whole line of text in a string
 
