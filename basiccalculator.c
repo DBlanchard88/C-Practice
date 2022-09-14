@@ -10,7 +10,7 @@ int main()
     scanf("%lf", &num1);
     printf("enter second number: ");
     scanf("%lf", &num2);
-    printf("Answere: %lf", num1 + num2);
+    printf("Answere: %f", num1 + num2);
 
 
     return 0;
