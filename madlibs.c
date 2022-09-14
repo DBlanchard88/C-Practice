@@ -4,14 +4,21 @@
 int main()
 {
     
-    char color[10];
-    char plural_noun[20];
-    char noun[20];
+    char color[50];
+    char pluralNoun[50];
+    char noun[50];
+
+    printf("Enter in a color: \n");
+    scanf("%s", color);
+    printf("Enter in a plural noun: \n");
+    scanf("%s", pluralNoun);
+    printf("Enter in a noun: \n");
+    scanf("%s", noun);
 
 
-    printf("roses are %s\n", color, 20 );
-    printf("%s are blue\n", plural_noun, 20);
-    printf("i love %n.\n", noun, 20);
+    printf("roses are %s\n", color);
+    printf("%s are blue\n", pluralNoun);
+    printf("i love %s.\n", noun);
 
     return 0;
 }
