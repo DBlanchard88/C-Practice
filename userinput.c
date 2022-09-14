@@ -8,7 +8,7 @@ when ever creating string of characters you need [] and you specify how many cha
  you dont need "&" when grabbing user input for a sting
 
 & you need it to store  %d
- %s is how c requests a sting callout
+ %s is how c requests a string callout
  %c is how c requests character callout
  %lf is how c requests a double callout
  $d is how c requests an intager callout
