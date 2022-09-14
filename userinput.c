@@ -7,6 +7,7 @@ scanf allows user to enter in information to program
 when ever creating string of characters you need [] and you specify how many characters you need to store inside integer if you are not going to give it a value right away
  you dont need "&" when grabbing user input for a sting
 
+& you need it to store  %d
  %s is how c requests a sting callout
  %c is how c requests character callout
  %lf is how c requests a double callout
