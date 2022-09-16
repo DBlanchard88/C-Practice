@@ -4,13 +4,10 @@
 
 int main()
 {   
-    printf("top\n");
-    sayHi();
-    printf("bottom");
-
+    sayHi("Mike", 23);
     return 0;
 }
 
-void sayHi(){
-    printf("Hello User\n");
+void sayHi(char name[], int age){
+    printf("Hello %s you are %d \n", name, age);
 }
